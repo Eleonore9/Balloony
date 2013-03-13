@@ -1,0 +1,64 @@
+/* IMAGES */
+.balloonicorn {
+    position: relative;
+    height: 10%;
+    width: 10%;
+    z-index: 10;
+}
+.sky {
+    position: relative;
+    width: 800px;
+    height:600px;
+    margin-left: 20%;
+    opacity:0.8;
+    z-index: -1;
+}
+
+.rainbow {
+    height: 5%;
+    width: 5%;
+    position:relative;
+    top:2px;
+    right:50px;
+    z-index: 100;
+    opacity:0.8;
+}
+
+/* HEADER */
+.header {
+    border-bottom: 2px solid #2989d8;
+    height:60px;
+    margin-top:0; 
+    text-align: center;
+}
+
+/* GAME INSTRUCTIONS  */
+
+.instruction {
+    text-align: center;
+    font-family: 'Gabriela', serif;
+}
+
+/* GAME  */
+.content {
+    margin-top: 50px;
+    font-family: 'Gabriela', serif;
+}
+
+/* FOOTER */
+.footer {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+.footer a {
+    color: #BD2B66;
+    text-decoration: none;
+    font-family: 'Gabriela', serif;
+}
+.footer a:hover {
+    cursor: pointer;
+    color: #2BBD94;
+    text-decoration: none;
+}
