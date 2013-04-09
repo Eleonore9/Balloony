@@ -3,7 +3,7 @@
     position: relative;
     height: 10%;
     width: 10%;
-    z-index: 10;
+    z-index: 100;
 }
 .sky {
     position: relative;
@@ -11,16 +11,16 @@
     height:600px;
     margin-left: 20%;
     opacity:0.8;
-    z-index: -1;
+    z-index: 10;
 }
 
 .rainbow {
     height: 5%;
     width: 5%;
     position:relative;
-    top:2px;
-    right:50px;
-    z-index: 100;
+    top:-100px;
+    right:200px;
+    z-index: -1;
     opacity:0.8;
 }
 
@@ -62,3 +62,6 @@
     color: #2BBD94;
     text-decoration: none;
 }
+.footer .smaller {
+    font-size: 80%;
+} 
